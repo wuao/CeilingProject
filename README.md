@@ -20,8 +20,7 @@
 ![image](https://github.com/wuao/CeilingProject/blob/master/ios.gif)
 
  android 效果 <br/>
+ [android APk 下载](https://github.com/wuao/CeilingProject/blob/master/android/app/release/app-release.apk)<br/>
    
 ![image](https://github.com/wuao/CeilingProject/blob/master/android.gif)
  
- [android APk 下载](https://www.moretime.vip/upload/2019/01/app-release.apk)
-   
