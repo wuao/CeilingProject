@@ -17,11 +17,11 @@
 
  ios 效果 <br/>
   
-![image](https://www.moretime.vip/upload/2019/01/ios.gif)
+![image](https://github.com/wuao/CeilingProject/blob/master/ios.gif)
 
  android 效果 <br/>
    
-![image](https://www.moretime.vip/upload/2019/01/android.gif)
+![image](https://github.com/wuao/CeilingProject/blob/master/android.gif)
  
  [android APk 下载](https://www.moretime.vip/upload/2019/01/app-release.apk)
    
