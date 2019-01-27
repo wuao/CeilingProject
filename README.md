@@ -15,7 +15,9 @@
 这个demo 在下载完成之后 你可以运行npm install 或者yarn 之后<br/>
 在执行下react-native link  会依赖一个react-native-gestrue-handler 在android端开as 的时候会看到<br/>
      
-     
+![image](https://www.moretime.vip/upload/2019/01/ios.gif)
+
+
      
   ios 效果 <br/>
   
