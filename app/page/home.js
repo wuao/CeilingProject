@@ -29,30 +29,30 @@ export default class Home extends Component<Props>  {
 
         switch (type) {
             case 0:
-                this.setState({
-                    btnOne: true,
-                    btnTwo: false,
-                    btnThere: false,
-                    isShowCeiling: false,//防止在某些tab 页面不一样的时候 产生2个tab 栏 所以全部置为fals
-                    textone: '内容布局1',
+                this.setState((state)=>{
+                    state.btnOne=true;
+                    state.btnTwo=false;
+                    state.btnThere=false;
+                    state.textone='内容布局1'
+                    return state;
                 });
                 break;
             case 1:
-                this.setState({
-                    btnOne: false,
-                    btnTwo: true,
-                    btnThere: false,
-                    isShowCeiling: false,
-                    textone: '内容布局2'
+                this.setState((state)=>{
+                    state.btnOne=false;
+                    state.btnTwo=true;
+                    state.btnThere=false;
+                    state.textone='内容布局2'
+                    return state;
                 });
                 break;
             case 2:
-                this.setState({
-                    btnOne: false,
-                    btnTwo: false,
-                    btnThere: true,
-                    isShowCeiling: false,
-                    textone: '内容布局3'
+                this.setState((state)=>{
+                    state.btnOne=false;
+                    state.btnTwo=false;
+                    state.btnThere=true;
+                    state.textone='内容布局3'
+                    return state;
                 });
                 break;
         }
@@ -85,7 +85,7 @@ export default class Home extends Component<Props>  {
                             <Text
                                 style={[styles.textdetalis, {color: this.state.btnOne ? '#2D99EE' : '#333333'}]}>Tab1</Text>
                             <View
-                                style={[styles.line, {backgroundColor: this.state.btnOne ? '#2D99EE' : 'fff'}]}/>
+                                style={[styles.line, {backgroundColor: this.state.btnOne ? '#2D99EE' : '#f1f1f1'}]}/>
                         </View>
                     </TouchableHighlight>
 
@@ -101,7 +101,7 @@ export default class Home extends Component<Props>  {
                             <Text
                                 style={[styles.textdetalis, {color: this.state.btnTwo ? '#2D99EE' : '#333333'}]}>Tab2</Text>
                             <View
-                                style={[styles.line, {backgroundColor: this.state.btnTwo ? '#2D99EE' : 'fff'}]}/>
+                                style={[styles.line, {backgroundColor: this.state.btnTwo ? '#2D99EE' : '#f1f1f1'}]}/>
                         </View>
                     </TouchableHighlight>
                     <TouchableHighlight
@@ -116,7 +116,7 @@ export default class Home extends Component<Props>  {
                             <Text
                                 style={[styles.textdetalis, {color: this.state.btnThere ? '#2D99EE' : '#333333'}]}>Tab3</Text>
                             <View
-                                style={[styles.line, {backgroundColor: this.state.btnThere ? '#2D99EE' : 'fff'}]}/>
+                                style={[styles.line, {backgroundColor: this.state.btnThere ? '#2D99EE' : '#f1f1f1'}]}/>
                         </View>
                     </TouchableHighlight>
 
